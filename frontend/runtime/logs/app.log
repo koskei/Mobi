@@ -1,0 +1,64 @@
+2016-10-25 05:35:17 [127.0.0.1][2][5g7t8nvf0n1g88u1qrj6d8eq82][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /var/www/html/mobi/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /var/www/html/mobi/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /var/www/html/mobi/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /var/www/html/mobi/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /var/www/html/mobi/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /var/www/html/mobi/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /var/www/html/mobi/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /var/www/html/mobi/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('signup', Array)
+#8 /var/www/html/mobi/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('site/signup', Array)
+#9 /var/www/html/mobi/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/mobi/frontend/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2016-10-25 05:35:17 [127.0.0.1][2][5g7t8nvf0n1g88u1qrj6d8eq82][info][application] $_COOKIE = [
+    'advanced-backend' => '08ulre4jm7p5jbhe0i0i6k6ao7'
+    '_csrf-backend' => 'fcc3fda4c41a664336d1ae26b30e7d7af672707618aca99e291d48b11763a6d2a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"h8_xNrTcd-9WalHz5iPiYCbRg_JqL3l8\";}'
+    '_csrf-frontend' => 'ba687c2b4c9bfe8f06f48eb616733df1cfcaf36c2008cfca6431548cf546f838a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"AmqVkbwPszE8cIH4Tr09b7c3AiyQfDeL\";}'
+    'advanced-frontend' => '5g7t8nvf0n1g88u1qrj6d8eq82'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WA7vFYg3pjJaJNqPZF8gJgAAAAc'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WA7vFYg3pjJaJNqPZF8gJgAAAAc'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://127.0.0.1/mobi/frontend/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=08ulre4jm7p5jbhe0i0i6k6ao7; _csrf-backend=fcc3fda4c41a664336d1ae26b30e7d7af672707618aca99e291d48b11763a6d2a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22h8_xNrTcd-9WalHz5iPiYCbRg_JqL3l8%22%3B%7D; _csrf-frontend=ba687c2b4c9bfe8f06f48eb616733df1cfcaf36c2008cfca6431548cf546f838a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22AmqVkbwPszE8cIH4Tr09b7c3AiyQfDeL%22%3B%7D; advanced-frontend=5g7t8nvf0n1g88u1qrj6d8eq82'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Fedora) PHP/5.6.27'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'root@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/mobi/frontend/web/index.php'
+    'REMOTE_PORT' => '34054'
+    'REDIRECT_URL' => '/mobi/frontend/web/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/mobi/frontend/web/site/signup'
+    'SCRIPT_NAME' => '/mobi/frontend/web/index.php'
+    'PHP_SELF' => '/mobi/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1477373717.127
+    'REQUEST_TIME' => 1477373717
+]

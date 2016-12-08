@@ -1,0 +1,20 @@
+Submission Form,,,,,,
+Google Flu Tracker_SA,,,,,,
+Q #,Q Name,English,Length,Q Type,Rotation,Skip Pattern
+NA,Opt-In Incentive,You have been selected to take a GeoPoll survey. Reply 1 to answer 3 questions and earn #TOPUP#! No cost to reply. For help reply HELP. Type STOP to Opt-Out,156,Single Choice,NA,"1 = Birth Year
+Help = HELP
+STOP = Refusal"
+NA,HELP,GeoPoll is a global network of people shaping their community by answering short surveys. Free to respond. Reply STOP to Opt-Out. Visit GeoPoll.com for info ,157,Single Choice,NA,"1 = Had Fever Last Week
+STOP = Refusal"
+NA,Refusal,"Thank you for your time, you will be removed from our system. For more information or to register for future surveys please visit GeoPoll.com",141,NA,NA,NA
+NA,Ineligible,You are ineligible for this survey. Thank you for your time and please look out for future GeoPoll surveys! For more information visit GeoPoll.com,146,NA,NA,NA
+NA,Opt-In Incentive,You have been selected to take a GeoPoll survey. Reply 1 to answer 3 questions and earn #TOPUP#! No cost to reply. For help reply HELP. Type STOP to Opt-Out,156,Single Choice,NA,"1 = Birth Year
+Help = HELP
+STOP = Refusal"
+NA,HELP,GeoPoll is a global network of people shaping their community by answering short surveys. Free to respond. Reply STOP to Opt-Out. Visit GeoPoll.com for info ,157,Single Choice,NA,"1 = Had Fever Last Week
+STOP = Refusal"
+NA,Refusal,"Thank you for your time, you will be removed from our system. For more information or to register for future surveys please visit GeoPoll.com",141,NA,NA,NA
+NA,Ineligible,You are ineligible for this survey. Thank you for your time and please look out for future GeoPoll surveys! For more information visit GeoPoll.com,146,NA,NA,NA
+4,Had Flu Last Week,Do you think you had the flu last week? (Reply with a number) 1)Yes 2)No 3)Don't know,85,Single Choice,NA,1-3 = Close-Out Incentive
+5,City,What City do you currently live in?,35,Open Ended,NA,Any response = Close-Out Incentive
+NA,Close-Out Incentive,"Survey complete, you will receive #TOPUP# airtime credit within 2 days. For more information and to register friends and family visit m.GeoPoll.com",147,NA,NA,NA
